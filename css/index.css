@@ -1,0 +1,207 @@
+/*
+* guisheng subject
+* index.css
+*/
+
+
+/** reset css **/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'microsoft yahei', '微软雅黑';
+    font-size: 18px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+body {
+    background-color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+
+/** main css **/
+
+.subject {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.subject-head img {
+    height: 364px;
+    width: 100%;
+    background-color: #facd89;
+}
+
+.subject-head .logo {
+    height: 69px;
+    background-color: #fff;
+    width: 320px;
+    margin: 10px 0px 30px;
+}
+
+.subject-introduction {
+    height: 208px;
+    width: 524px;
+    border: #d14835 2px solid;
+    color: #d14835;
+    position: relative;
+    margin: 66px auto;
+}
+
+.subject-introduction-title {
+    font-size: 45px;
+    line-height: 76px;
+    position: absolute;
+    background-color: #fff;
+    padding: 0px 30px;
+    top: -43px;
+    left: 185px;
+}
+
+.subject-introduction-content {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #d14835;
+    margin: 42px 0px 0px;
+}
+
+.subject-main {
+    width: 100%;
+}
+
+.subject-main-each {
+    height: 330px;
+    margin: 10px 0px;
+    border-bottom: solid 2px #d14835;
+}
+
+.third {
+    border-bottom: 0px;
+}
+
+.subject-main-each img {
+    float: left;
+    margin: 20px 20px 20px 0px;
+    height: 272px;
+    width: 364px;
+    background-color: #facd89;
+}
+
+.subject-main-each-content {
+    float: left;
+    height: 272px;
+    width: 600px;
+}
+
+.subject-main-each-content h3 {
+    margin: 6px 0px 30px;
+}
+
+.subject-main-each-content h3 a {
+    width: 100%;
+    font-size: 28px;
+    line-height: 51px;
+    color: #0d0d0d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.subject-main-each-content p {
+    height: 150px;
+    line-height: 36px;
+    font-size: 24px;
+    color: #0d0d0d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 18px;
+    margin-bottom: 28px;
+}
+
+.subject-main-each-content>span {
+    position: relative;
+    height: 30px;
+    width: 145px;
+}
+
+.subject-main-each-content .time {
+    width: 250px;
+    margin-left: 21px;
+}
+
+.subject-main-each-content>span svg {
+    height: 21px;
+    width: 21px;
+    fill: #aaa;
+    position: absolute;
+}
+
+.subject-main-each-content>span span {
+    color: #aaa;
+    position: absolute;
+    top: 2px;
+    left: 27px;
+}
+
+.subject-main hr {
+    width: 100%;
+    height: 3px;
+    color: #d14835;
+}
+
+.subject-past {
+    width: 100%;
+}
+
+.subject-past-title {
+    text-align: center;
+}
+
+.subject-past-title a {
+    color: #d14835;
+    font-size: 45px;
+    line-height: 106px;
+    padding: 0px 90px;
+    margin: 12px 0px;
+    font-weight: initial;
+    border-bottom: 2px solid #d14835;
+}
+
+.subject-past-each {
+    display: inline-block;
+    height: 210px;
+    width: 415px;
+    margin: 0px 40px;
+}
+
+.subject-past-each img {
+    height: 144px;
+    width: 402px;
+    background-color: #facd89;
+    margin: 10px auto;
+}
+
+.subject-past-each a {
+    color: #d14835;
+    width: 402px;
+    text-align: center;
+}
